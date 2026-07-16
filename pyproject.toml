@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-structures-and-algorithms-rebuilds"
+version = "0.0.0"
+description = "Independent reconstructions of advanced data structures for comparative study."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = []
+dependencies = []
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
