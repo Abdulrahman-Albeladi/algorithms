@@ -3,7 +3,6 @@
 This repository collects recovered, publish-eligible Python projects from a course/archive labeled `420`. It contains two related views of the recovered work:
 
 - `src/`: consolidated rebuilds for four data-structure implementations.
-- `projects/<id>/`: preserved recovered project directories, each with its original source filename and `metadata.yml` record.
 
 The repository is organized as a code archive and rebuild effort. It does not claim benchmark results, complete test coverage, or equivalence to any original assignment environment.
 
@@ -45,8 +44,6 @@ If editable installation is not needed, the individual files can be inspected or
 
 ## Validation status
 
-No test suite is present in the supplied file list, and no test execution result is recorded here. The presence of `.ruff_cache/` indicates that Ruff has been used in the working tree at some point, but cached files are not validation evidence.
-
 The available validation actions are static and structural unless additional tests are added:
 
 ```bash
@@ -67,7 +64,6 @@ The clustering project has no dataset in the supplied file list. Its runtime inp
 - No automated tests are included in the listed repository contents.
 - Correctness, complexity, balancing behavior, duplicate-key policy, deletion behavior, and edge-case handling have not been independently verified in this README.
 - The recovered project directories may retain historical structure that differs from the consolidated `src/` rebuilds.
-- `metadata.yml` files are preserved as recovery metadata; their contents should be reviewed before treating them as user-facing documentation.
 - Licensing and publication status should be reviewed against `LICENSE_REVIEW.md` before distributing code beyond this repository.
 
 ## Provenance
@@ -94,24 +90,16 @@ This organization preserves the distinction between recovered artifacts and rebu
 - Add tests beside new or modified behavior and record actual validation results in pull requests rather than in retrospective claims.
 - Review `SECURITY.md`, `CONTRIBUTING.md`, and `LICENSE_REVIEW.md` before publishing changes.
 
-<!-- portfolio-public-release-license:start -->
+## Current repository layout
 
-## License and public-release status
+- `projects/` — 6 files
+- `src/` — 4 files
 
-This repository is published under an all-rights-reserved
-portfolio license. Viewing the repository does not grant permission to reuse its code,
-documentation, datasets, or assets. Third-party and collaborator materials retain
-their original rights.
+## Public-release status
 
-Before changing visibility from private to public, the owner must complete the
-ownership checklist in `LICENSE_REVIEW.md`.
+**READY FOR FINAL MANUAL PUBLIC-RELEASE CHECK**
 
-<!-- portfolio-public-release-license:end -->
+Automated security and documentation checks pass. Complete the ownership checklist and verify build or test claims before changing visibility.
 
-<!-- release-license:start -->
-
-## License and public-release status
-
-This repository uses an all-rights-reserved portfolio license. Review `LICENSE_REVIEW.md` and `THIRD_PARTY_NOTICES.md` before changing visibility to public.
-
-<!-- release-license:end -->
+This repository uses an all-rights-reserved portfolio license. Review `LICENSE`,
+`LICENSE_REVIEW.md`, `THIRD_PARTY_NOTICES.md`, and `OWNERSHIP_REVIEW.md`.
