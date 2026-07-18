@@ -1,4 +1,4 @@
-# Data Structures and Algorithms Rebuilds
+# Algorithms
 
 This repository collects recovered, publish-eligible Python projects from a course/archive labeled `420`. It contains two related views of the recovered work:
 
