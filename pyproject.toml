@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "data-structures-and-algorithms-rebuilds"
+name = "algorithms"
 version = "0.0.0"
-description = "Independent reconstructions of advanced data structures for comparative study."
+description = "Implementations of advanced data structures and clustering algorithms from university coursework."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = []
