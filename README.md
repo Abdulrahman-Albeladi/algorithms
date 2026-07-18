@@ -1,5 +1,12 @@
 # Algorithms
 
+<!-- employer-visual:start -->
+<p align="center">
+  <img src="docs/portfolio-overview.png" alt="Algorithms project overview" width="100%">
+</p>
+<!-- employer-visual:end -->
+
+
 Implementations of advanced data structures and clustering algorithms from university coursework.
 
 **Technologies:** Python · Algorithms · Data Structures
