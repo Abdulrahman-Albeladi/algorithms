@@ -1,6 +1,5 @@
 # Algorithms: Data Structures and Spectral Clustering in Python
 
-![Algorithms project overview](docs/portfolio-overview.png)
 
 Self-implemented B-tree, KD-tree, Scapegoat tree, Skip list, and spectral clustering, organized as a clean Python package for quick review.
 
